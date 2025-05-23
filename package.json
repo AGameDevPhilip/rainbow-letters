@@ -1,22 +1,54 @@
 {
   "name": "rainbow-letters",
   "displayName": "Rainbow Letters",
-  "description": "",
+  "description": "A VS Code extension that assigns each letter a unique rainbow color using semantic tokens.",
   "version": "0.0.1",
+  "publisher": "filip-bydalek",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AGameDevPhilip/rainbow-letters"
+  },
   "engines": {
     "vscode": "^1.100.0"
   },
   "categories": [
     "Other"
   ],
-  "activationEvents": [],
+  "activationEvents": ["onLanguage:plaintext"],
   "main": "./out/extension.js",
   "contributes": {
-    "commands": [
+    "themes": [
       {
-        "command": "rainbow-letters.helloWorld",
-        "title": "Hello World"
+        "label": "Rainbow Letters",
+        "uiTheme": "vs-dark",
+        "path": "./themes/rainbow-letters-theme.json"
       }
+    ],
+    "semanticTokenTypes": [
+      {
+          "id": "letter",
+          "superType": "variable",
+          "description": "Individual letter"
+      }
+    ],
+    "semanticTokenModifiers": [
+      { "id": "0", "description": "Modifier 0" },
+      { "id": "1", "description": "Modifier 1" },
+      { "id": "2", "description": "Modifier 2" },
+      { "id": "3", "description": "Modifier 3" },
+      { "id": "4", "description": "Modifier 4" },
+      { "id": "5", "description": "Modifier 5" },
+      { "id": "6", "description": "Modifier 6" },
+      { "id": "7", "description": "Modifier 7" },
+      { "id": "8", "description": "Modifier 8" },
+      { "id": "9", "description": "Modifier 9" },
+      { "id": "10", "description": "Modifier 10" },
+      { "id": "11", "description": "Modifier 11" },
+      { "id": "12", "description": "Modifier 12" },
+      { "id": "13", "description": "Modifier 13" },
+      { "id": "14", "description": "Modifier 14" },
+      { "id": "15", "description": "Modifier 15" }
     ]
   },
   "scripts": {

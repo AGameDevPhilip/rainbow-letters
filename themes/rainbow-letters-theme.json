@@ -1,0 +1,24 @@
+{
+  "name": "Rainbow Letters",
+  "type": "dark",
+  "colors": {},
+  "semanticTokenColors": {
+    "letter.0": { "foreground": "#FF0000" },
+    "letter.1": { "foreground": "#00FF00" },
+    "letter.2": { "foreground": "#0000FF" },
+    "letter.3": { "foreground": "#FFFF00" },
+    "letter.4": { "foreground": "#FF00FF" },
+    "letter.5": { "foreground": "#00FFFF" },
+    "letter.6": { "foreground": "#FFA500" },
+    "letter.7": { "foreground": "#A52A2A" },
+    "letter.8": { "foreground": "#8A2BE2" },
+    "letter.9": { "foreground": "#DEB887" },
+    "letter.10": { "foreground": "#5F9EA0" },
+    "letter.11": { "foreground": "#7FFF00" },
+    "letter.12": { "foreground": "#D2691E" },
+    "letter.13": { "foreground": "#FF7F50" },
+    "letter.14": { "foreground": "#6495ED" },
+    "letter.15": { "foreground": "#DC143C" }
+  },
+  "tokenColors": []
+}
